@@ -8,8 +8,9 @@
     height: 100vh;
     width: 100%;
     background-color: black;
-    background-size: cover;
-    background-position: center;
+
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 
 nav{
@@ -18,8 +19,9 @@ nav{
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
-    padding-right: 8%;
+    padding-right: 8%;  
 }
+
 
 .logo{
     color: white;
@@ -35,6 +37,7 @@ span{
 nav ul li{
     display: inline-block;
     list-style-type: none;
+    
     padding: 10px 25px;
 }
 
@@ -322,6 +325,9 @@ footer p:nth-child(2){
     background: #f9004d;
     border-radius: 50%;
     margin: 22px 10px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 20px;
     /* margin-left: 55px; */
     /* padding-left: 15px; */
 }
